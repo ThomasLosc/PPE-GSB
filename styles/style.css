@@ -1,0 +1,33 @@
+/* 
+    Created on : 12 nov. 2020, 11:21:37
+    Author     : Barbet
+*/
+
+.GradientBox {
+    height: 10px; bottom: 10px;
+    background: linear-gradient(0deg, #272b30 30%,transparent 70%);
+}
+
+.font-size-xxSmall {
+    font-size: xx-small;
+}
+
+.DropShadow {
+    filter: drop-shadow(2px 4px 9px rgba(0,0,0,0.7));
+}
+
+.w-180p {
+    width: 180px;
+}
+
+.w-Max-95p {
+    max-width: 95px;
+}
+
+.height-30p {
+    height: 30px;
+}
+
+.animation0_4s {
+    transition: 0.4s ease;
+}
