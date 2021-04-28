@@ -52,8 +52,17 @@
               <a href="cConsultFichesFrais.php" title="Consultation de mes fiches de frais">Mes fiches de frais</a>
            </li>
            <li class="smenu">
-              <a href="appAcceuil.php" title="Saisie Compte-Rendus"> Saisie Compte-Rendus  </a>
+              <a href="appAcceuil.php" title="Saisie Compte-Rendus">Compte-Rendus  </a>
            </li>
+           <li class="smenu">
+            <a href="cVisiteurs.php" title="Voir Comptes-rendus">Visiteurs</a>
+         </li>
+         <li class="smenu">
+            <a href="cPracticiens.php" title="Voir Comptes-rendus">Practiciens</a>
+         </li>
+         <li class="smenu">
+            <a href="cMedicaments.php" title="Voir Comptes-rendus">Medicaments</a>
+         </li>
    <?php 
       }
       else if($_SESSION["numPoste"] == 1) { ?>

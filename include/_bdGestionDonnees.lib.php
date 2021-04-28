@@ -19,7 +19,7 @@ function connecterServeurBD() {
     $login = "root";
     $mdp = "";
     // return mysql_connect($hote, $login, $mdp);
-    $mysqli = new mysqli($hote, $login, $mdp,"ppe");
+    $mysqli = new mysqli($hote, $login, $mdp,"ppe3");
     $mysqli->set_charset("utf8");
     
     return $mysqli;
